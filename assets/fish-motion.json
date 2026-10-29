@@ -1,0 +1,36 @@
+{
+  "type": "runtime-procedural-rig",
+  "source": "original sprite-gen GPT PNG per species",
+  "anchor": [
+    0.5,
+    0.5
+  ],
+  "slices": 24,
+  "states": {
+    "swimming": {
+      "loop": true,
+      "deformation": "head-stable sinusoidal tail bend"
+    },
+    "turning": {
+      "loop": true,
+      "deformation": "horizontal yaw squash/flip + tail bend"
+    },
+    "idle": {
+      "loop": true,
+      "deformation": "gentle float"
+    },
+    "jumping": {
+      "loop": true,
+      "deformation": "arcing translation and pitch"
+    },
+    "catch": {
+      "loop": true,
+      "deformation": "presentation pulse and tail bend"
+    },
+    "celebration": {
+      "loop": true,
+      "deformation": "rarity-colored orbital particles and tail bend"
+    }
+  },
+  "note": "Procedural animations over original art; not independent AI pose sequences. Reduced motion disables deforming movement."
+}

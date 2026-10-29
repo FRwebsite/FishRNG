@@ -1,0 +1,891 @@
+{
+  "version": "1.0.0",
+  "schema": 1,
+  "rarities": [
+    "Common",
+    "Uncommon",
+    "Rare",
+    "Epic",
+    "Legendary",
+    "Mythic"
+  ],
+  "weights": [
+    60,
+    25,
+    10,
+    4,
+    0.9,
+    0.1
+  ],
+  "luckFactors": [
+    0,
+    0,
+    0.35,
+    0.65,
+    1,
+    1.2
+  ],
+  "luckCaps": [
+    1,
+    1,
+    3,
+    4,
+    5,
+    6
+  ],
+  "softPity": 100,
+  "legendaryPity": 200,
+  "mythicPity": 2000,
+  "timezone": "Asia/Singapore",
+  "baseFishingMs": 6500,
+  "biteWindowMs": 180000,
+  "reelMs": 4500,
+  "sessionHours": 24,
+  "inventoryLimit": 500,
+  "mutationWeights": [
+    94,
+    3,
+    1.7,
+    1,
+    0.3
+  ],
+  "mutationNames": [
+    "Normal",
+    "Golden",
+    "Crystal",
+    "Shadow",
+    "Celestial"
+  ],
+  "mutationValues": [
+    1,
+    1.7,
+    2,
+    2.5,
+    4
+  ],
+  "fish": [
+    {
+      "id": "silver_carp",
+      "name": "Silver Carp",
+      "rarity": "Common",
+      "minWeight": 0.2,
+      "maxWeight": 8,
+      "typicalWeight": 2,
+      "baseValue": 18,
+      "xp": 12,
+      "habitats": [
+        "sunny_pond",
+        "crystal_lake",
+        "mystic_river",
+        "coral_bay",
+        "abyssal_sea"
+      ],
+      "description": "Silver Carp thrives in enchanted waters. Its silver scales, amber eye, rounded carp make every encounter unforgettable.",
+      "asset": "assets/fish/silver_carp.png",
+      "appearance": "silver scales, amber eye, rounded carp"
+    },
+    {
+      "id": "river_minnow",
+      "name": "River Minnow",
+      "rarity": "Common",
+      "minWeight": 0.2,
+      "maxWeight": 8,
+      "typicalWeight": 2,
+      "baseValue": 18,
+      "xp": 12,
+      "habitats": [
+        "sunny_pond",
+        "crystal_lake",
+        "mystic_river",
+        "coral_bay",
+        "abyssal_sea"
+      ],
+      "description": "River Minnow thrives in enchanted waters. Its slender golden striped minnow make every encounter unforgettable.",
+      "asset": "assets/fish/river_minnow.png",
+      "appearance": "slender golden striped minnow"
+    },
+    {
+      "id": "bluefin_guppy",
+      "name": "Bluefin Guppy",
+      "rarity": "Common",
+      "minWeight": 0.2,
+      "maxWeight": 8,
+      "typicalWeight": 2,
+      "baseValue": 18,
+      "xp": 12,
+      "habitats": [
+        "sunny_pond",
+        "crystal_lake",
+        "mystic_river",
+        "coral_bay",
+        "abyssal_sea"
+      ],
+      "description": "Bluefin Guppy thrives in enchanted waters. Its tiny blue flowing fan tail guppy make every encounter unforgettable.",
+      "asset": "assets/fish/bluefin_guppy.png",
+      "appearance": "tiny blue flowing fan tail guppy"
+    },
+    {
+      "id": "pebble_perch",
+      "name": "Pebble Perch",
+      "rarity": "Common",
+      "minWeight": 0.2,
+      "maxWeight": 8,
+      "typicalWeight": 2,
+      "baseValue": 18,
+      "xp": 12,
+      "habitats": [
+        "sunny_pond",
+        "crystal_lake",
+        "mystic_river",
+        "coral_bay",
+        "abyssal_sea"
+      ],
+      "description": "Pebble Perch thrives in enchanted waters. Its rock speckled stout perch make every encounter unforgettable.",
+      "asset": "assets/fish/pebble_perch.png",
+      "appearance": "rock speckled stout perch"
+    },
+    {
+      "id": "sunny_tilapia",
+      "name": "Sunny Tilapia",
+      "rarity": "Common",
+      "minWeight": 0.2,
+      "maxWeight": 8,
+      "typicalWeight": 2,
+      "baseValue": 18,
+      "xp": 12,
+      "habitats": [
+        "sunny_pond",
+        "crystal_lake",
+        "mystic_river",
+        "coral_bay",
+        "abyssal_sea"
+      ],
+      "description": "Sunny Tilapia thrives in enchanted waters. Its sunny yellow tilapia tall dorsal fin make every encounter unforgettable.",
+      "asset": "assets/fish/sunny_tilapia.png",
+      "appearance": "sunny yellow tilapia tall dorsal fin"
+    },
+    {
+      "id": "brook_darter",
+      "name": "Brook Darter",
+      "rarity": "Common",
+      "minWeight": 0.2,
+      "maxWeight": 8,
+      "typicalWeight": 2,
+      "baseValue": 18,
+      "xp": 12,
+      "habitats": [
+        "sunny_pond",
+        "crystal_lake",
+        "mystic_river",
+        "coral_bay",
+        "abyssal_sea"
+      ],
+      "description": "Brook Darter thrives in enchanted waters. Its streamlined copper darter make every encounter unforgettable.",
+      "asset": "assets/fish/brook_darter.png",
+      "appearance": "streamlined copper darter"
+    },
+    {
+      "id": "emerald_bass",
+      "name": "Emerald Bass",
+      "rarity": "Uncommon",
+      "minWeight": 0.4,
+      "maxWeight": 18,
+      "typicalWeight": 5,
+      "baseValue": 50,
+      "xp": 25,
+      "habitats": [
+        "sunny_pond",
+        "crystal_lake",
+        "mystic_river",
+        "coral_bay",
+        "abyssal_sea"
+      ],
+      "description": "Emerald Bass thrives in enchanted waters. Its leaf green bass with jagged fins make every encounter unforgettable.",
+      "asset": "assets/fish/emerald_bass.png",
+      "appearance": "leaf green bass with jagged fins"
+    },
+    {
+      "id": "golden_sunfish",
+      "name": "Golden Sunfish",
+      "rarity": "Uncommon",
+      "minWeight": 0.4,
+      "maxWeight": 18,
+      "typicalWeight": 5,
+      "baseValue": 50,
+      "xp": 25,
+      "habitats": [
+        "sunny_pond",
+        "crystal_lake",
+        "mystic_river",
+        "coral_bay",
+        "abyssal_sea"
+      ],
+      "description": "Golden Sunfish thrives in enchanted waters. Its orange sunfish luminous gold frills make every encounter unforgettable.",
+      "asset": "assets/fish/golden_sunfish.png",
+      "appearance": "orange sunfish luminous gold frills"
+    },
+    {
+      "id": "moonlight_angler",
+      "name": "Moonlight Angler",
+      "rarity": "Uncommon",
+      "minWeight": 0.4,
+      "maxWeight": 18,
+      "typicalWeight": 5,
+      "baseValue": 50,
+      "xp": 25,
+      "habitats": [
+        "sunny_pond",
+        "crystal_lake",
+        "mystic_river",
+        "coral_bay",
+        "abyssal_sea"
+      ],
+      "description": "Moonlight Angler thrives in enchanted waters. Its teal round angler with moon lure make every encounter unforgettable.",
+      "asset": "assets/fish/moonlight_angler.png",
+      "appearance": "teal round angler with moon lure"
+    },
+    {
+      "id": "jade_snapper",
+      "name": "Jade Snapper",
+      "rarity": "Uncommon",
+      "minWeight": 0.4,
+      "maxWeight": 18,
+      "typicalWeight": 5,
+      "baseValue": 50,
+      "xp": 25,
+      "habitats": [
+        "sunny_pond",
+        "crystal_lake",
+        "mystic_river",
+        "coral_bay",
+        "abyssal_sea"
+      ],
+      "description": "Jade Snapper thrives in enchanted waters. Its jade red cheeked snapper make every encounter unforgettable.",
+      "asset": "assets/fish/jade_snapper.png",
+      "appearance": "jade red cheeked snapper"
+    },
+    {
+      "id": "azure_catfish",
+      "name": "Azure Catfish",
+      "rarity": "Uncommon",
+      "minWeight": 0.4,
+      "maxWeight": 18,
+      "typicalWeight": 5,
+      "baseValue": 50,
+      "xp": 25,
+      "habitats": [
+        "sunny_pond",
+        "crystal_lake",
+        "mystic_river",
+        "coral_bay",
+        "abyssal_sea"
+      ],
+      "description": "Azure Catfish thrives in enchanted waters. Its azure whiskered catfish make every encounter unforgettable.",
+      "asset": "assets/fish/azure_catfish.png",
+      "appearance": "azure whiskered catfish"
+    },
+    {
+      "id": "aqua_pike",
+      "name": "Aqua Pike",
+      "rarity": "Rare",
+      "minWeight": 0.6,
+      "maxWeight": 45,
+      "typicalWeight": 12,
+      "baseValue": 180,
+      "xp": 60,
+      "habitats": [
+        "mystic_river",
+        "coral_bay"
+      ],
+      "description": "Aqua Pike thrives in enchanted waters. Its turquoise long pointed pike make every encounter unforgettable.",
+      "asset": "assets/fish/aqua_pike.png",
+      "appearance": "turquoise long pointed pike"
+    },
+    {
+      "id": "sapphire_tuna",
+      "name": "Sapphire Tuna",
+      "rarity": "Rare",
+      "minWeight": 0.6,
+      "maxWeight": 45,
+      "typicalWeight": 12,
+      "baseValue": 180,
+      "xp": 60,
+      "habitats": [
+        "coral_bay",
+        "abyssal_sea"
+      ],
+      "description": "Sapphire Tuna thrives in enchanted waters. Its cobalt metallic tuna make every encounter unforgettable.",
+      "asset": "assets/fish/sapphire_tuna.png",
+      "appearance": "cobalt metallic tuna"
+    },
+    {
+      "id": "blaze_snapper",
+      "name": "Blaze Snapper",
+      "rarity": "Rare",
+      "minWeight": 0.6,
+      "maxWeight": 45,
+      "typicalWeight": 12,
+      "baseValue": 180,
+      "xp": 60,
+      "habitats": [
+        "abyssal_sea",
+        "sunny_pond"
+      ],
+      "description": "Blaze Snapper thrives in enchanted waters. Its scarlet orange fiery snapper make every encounter unforgettable.",
+      "asset": "assets/fish/blaze_snapper.png",
+      "appearance": "scarlet orange fiery snapper"
+    },
+    {
+      "id": "crystal_marlin",
+      "name": "Crystal Marlin",
+      "rarity": "Rare",
+      "minWeight": 0.6,
+      "maxWeight": 45,
+      "typicalWeight": 12,
+      "baseValue": 180,
+      "xp": 60,
+      "habitats": [
+        "sunny_pond",
+        "crystal_lake"
+      ],
+      "description": "Crystal Marlin thrives in enchanted waters. Its transparent crystal spear marlin make every encounter unforgettable.",
+      "asset": "assets/fish/crystal_marlin.png",
+      "appearance": "transparent crystal spear marlin"
+    },
+    {
+      "id": "frostfin_koi",
+      "name": "Frostfin Koi",
+      "rarity": "Rare",
+      "minWeight": 0.6,
+      "maxWeight": 45,
+      "typicalWeight": 12,
+      "baseValue": 180,
+      "xp": 60,
+      "habitats": [
+        "crystal_lake",
+        "mystic_river"
+      ],
+      "description": "Frostfin Koi thrives in enchanted waters. Its white icy koi blue fins make every encounter unforgettable.",
+      "asset": "assets/fish/frostfin_koi.png",
+      "appearance": "white icy koi blue fins"
+    },
+    {
+      "id": "azure_dragonfin",
+      "name": "Azure Dragonfin",
+      "rarity": "Epic",
+      "minWeight": 0.8,
+      "maxWeight": 100,
+      "typicalWeight": 25,
+      "baseValue": 650,
+      "xp": 140,
+      "habitats": [
+        "coral_bay",
+        "abyssal_sea"
+      ],
+      "description": "Azure Dragonfin thrives in enchanted waters. Its lavender dragon winged fish make every encounter unforgettable.",
+      "asset": "assets/fish/azure_dragonfin.png",
+      "appearance": "lavender dragon winged fish"
+    },
+    {
+      "id": "shadowfin",
+      "name": "Shadowfin",
+      "rarity": "Epic",
+      "minWeight": 0.8,
+      "maxWeight": 100,
+      "typicalWeight": 25,
+      "baseValue": 650,
+      "xp": 140,
+      "habitats": [
+        "abyssal_sea",
+        "sunny_pond"
+      ],
+      "description": "Shadowfin thrives in enchanted waters. Its inky blue serrated fin fish make every encounter unforgettable.",
+      "asset": "assets/fish/shadowfin.png",
+      "appearance": "inky blue serrated fin fish"
+    },
+    {
+      "id": "thunder_eel",
+      "name": "Thunder Eel",
+      "rarity": "Epic",
+      "minWeight": 0.8,
+      "maxWeight": 100,
+      "typicalWeight": 25,
+      "baseValue": 650,
+      "xp": 140,
+      "habitats": [
+        "sunny_pond",
+        "crystal_lake"
+      ],
+      "description": "Thunder Eel thrives in enchanted waters. Its electric violet long eel make every encounter unforgettable.",
+      "asset": "assets/fish/thunder_eel.png",
+      "appearance": "electric violet long eel"
+    },
+    {
+      "id": "mystic_ray",
+      "name": "Mystic Ray",
+      "rarity": "Epic",
+      "minWeight": 0.8,
+      "maxWeight": 100,
+      "typicalWeight": 25,
+      "baseValue": 650,
+      "xp": 140,
+      "habitats": [
+        "crystal_lake",
+        "mystic_river"
+      ],
+      "description": "Mystic Ray thrives in enchanted waters. Its purple diamond ray flowing tail make every encounter unforgettable.",
+      "asset": "assets/fish/mystic_ray.png",
+      "appearance": "purple diamond ray flowing tail"
+    },
+    {
+      "id": "phantom_grouper",
+      "name": "Phantom Grouper",
+      "rarity": "Epic",
+      "minWeight": 0.8,
+      "maxWeight": 100,
+      "typicalWeight": 25,
+      "baseValue": 650,
+      "xp": 140,
+      "habitats": [
+        "mystic_river",
+        "coral_bay"
+      ],
+      "description": "Phantom Grouper thrives in enchanted waters. Its ghostly violet heavy grouper make every encounter unforgettable.",
+      "asset": "assets/fish/phantom_grouper.png",
+      "appearance": "ghostly violet heavy grouper"
+    },
+    {
+      "id": "storm_leviathan",
+      "name": "Storm Leviathan",
+      "rarity": "Legendary",
+      "minWeight": 1.0,
+      "maxWeight": 250,
+      "typicalWeight": 65,
+      "baseValue": 3500,
+      "xp": 400,
+      "habitats": [
+        "abyssal_sea",
+        "sunny_pond"
+      ],
+      "description": "Storm Leviathan thrives in enchanted waters. Its blue thunder sea dragon leviathan make every encounter unforgettable.",
+      "asset": "assets/fish/storm_leviathan.png",
+      "appearance": "blue thunder sea dragon leviathan"
+    },
+    {
+      "id": "dragonbone_koi",
+      "name": "Dragonbone Koi",
+      "rarity": "Legendary",
+      "minWeight": 1.0,
+      "maxWeight": 250,
+      "typicalWeight": 65,
+      "baseValue": 3500,
+      "xp": 400,
+      "habitats": [
+        "sunny_pond",
+        "crystal_lake"
+      ],
+      "description": "Dragonbone Koi thrives in enchanted waters. Its gold bone armored koi make every encounter unforgettable.",
+      "asset": "assets/fish/dragonbone_koi.png",
+      "appearance": "gold bone armored koi"
+    },
+    {
+      "id": "solar_marlin",
+      "name": "Solar Marlin",
+      "rarity": "Legendary",
+      "minWeight": 1.0,
+      "maxWeight": 250,
+      "typicalWeight": 65,
+      "baseValue": 3500,
+      "xp": 400,
+      "habitats": [
+        "crystal_lake",
+        "mystic_river"
+      ],
+      "description": "Solar Marlin thrives in enchanted waters. Its solar gold sword marlin make every encounter unforgettable.",
+      "asset": "assets/fish/solar_marlin.png",
+      "appearance": "solar gold sword marlin"
+    },
+    {
+      "id": "ancient_sea_serpent",
+      "name": "Ancient Sea Serpent",
+      "rarity": "Legendary",
+      "minWeight": 1.0,
+      "maxWeight": 250,
+      "typicalWeight": 65,
+      "baseValue": 3500,
+      "xp": 400,
+      "habitats": [
+        "mystic_river",
+        "coral_bay"
+      ],
+      "description": "Ancient Sea Serpent thrives in enchanted waters. Its emerald ancient sea serpent make every encounter unforgettable.",
+      "asset": "assets/fish/ancient_sea_serpent.png",
+      "appearance": "emerald ancient sea serpent"
+    },
+    {
+      "id": "abyss_monarch",
+      "name": "Abyss Monarch",
+      "rarity": "Legendary",
+      "minWeight": 1.0,
+      "maxWeight": 250,
+      "typicalWeight": 65,
+      "baseValue": 3500,
+      "xp": 400,
+      "habitats": [
+        "coral_bay",
+        "abyssal_sea"
+      ],
+      "description": "Abyss Monarch thrives in enchanted waters. Its black gold crowned abyss fish make every encounter unforgettable.",
+      "asset": "assets/fish/abyss_monarch.png",
+      "appearance": "black gold crowned abyss fish"
+    },
+    {
+      "id": "celestial_koi",
+      "name": "Celestial Koi",
+      "rarity": "Mythic",
+      "minWeight": 1.2,
+      "maxWeight": 500,
+      "typicalWeight": 125,
+      "baseValue": 18000,
+      "xp": 1000,
+      "habitats": [
+        "crystal_lake",
+        "sunny_pond"
+      ],
+      "description": "Celestial Koi thrives in enchanted waters. Its pink gold celestial koi star fins make every encounter unforgettable.",
+      "asset": "assets/fish/celestial_koi.png",
+      "appearance": "pink gold celestial koi star fins"
+    },
+    {
+      "id": "phoenix_ray",
+      "name": "Phoenix Ray",
+      "rarity": "Mythic",
+      "minWeight": 1.2,
+      "maxWeight": 500,
+      "typicalWeight": 125,
+      "baseValue": 18000,
+      "xp": 1000,
+      "habitats": [
+        "crystal_lake",
+        "mystic_river"
+      ],
+      "description": "Phoenix Ray thrives in enchanted waters. Its scarlet phoenix winged ray make every encounter unforgettable.",
+      "asset": "assets/fish/phoenix_ray.png",
+      "appearance": "scarlet phoenix winged ray"
+    },
+    {
+      "id": "astral_leviathan",
+      "name": "Astral Leviathan",
+      "rarity": "Mythic",
+      "minWeight": 1.2,
+      "maxWeight": 500,
+      "typicalWeight": 125,
+      "baseValue": 18000,
+      "xp": 1000,
+      "habitats": [
+        "mystic_river",
+        "coral_bay"
+      ],
+      "description": "Astral Leviathan thrives in enchanted waters. Its cosmic blue leviathan starlit fins make every encounter unforgettable.",
+      "asset": "assets/fish/astral_leviathan.png",
+      "appearance": "cosmic blue leviathan starlit fins"
+    },
+    {
+      "id": "eternal_moonfish",
+      "name": "Eternal Moonfish",
+      "rarity": "Mythic",
+      "minWeight": 1.2,
+      "maxWeight": 500,
+      "typicalWeight": 125,
+      "baseValue": 18000,
+      "xp": 1000,
+      "habitats": [
+        "coral_bay",
+        "abyssal_sea"
+      ],
+      "description": "Eternal Moonfish thrives in enchanted waters. Its pearly moon disk fish purple ribbons make every encounter unforgettable.",
+      "asset": "assets/fish/eternal_moonfish.png",
+      "appearance": "pearly moon disk fish purple ribbons"
+    }
+  ],
+  "rods": [
+    {
+      "id": "beginner",
+      "name": "Beginner Rod",
+      "rarity": "Common",
+      "maxLevel": 10,
+      "luck": 0,
+      "speed": 0,
+      "cost": 0,
+      "unlockLevel": 1,
+      "upgradeBase": 100,
+      "material": 1,
+      "asset": "assets/rods/0.png"
+    },
+    {
+      "id": "bamboo",
+      "name": "Bamboo Rod",
+      "rarity": "Uncommon",
+      "maxLevel": 10,
+      "luck": 0.15,
+      "speed": 0.05,
+      "cost": 300,
+      "unlockLevel": 2,
+      "upgradeBase": 400,
+      "material": 2,
+      "asset": "assets/rods/1.png"
+    },
+    {
+      "id": "ocean",
+      "name": "Ocean\u2019s Grace",
+      "rarity": "Rare",
+      "maxLevel": 20,
+      "luck": 0.4,
+      "speed": 0.12,
+      "cost": 1500,
+      "unlockLevel": 5,
+      "upgradeBase": 900,
+      "material": 3,
+      "asset": "assets/rods/2.png"
+    },
+    {
+      "id": "skyline",
+      "name": "Skyline Rod",
+      "rarity": "Rare",
+      "maxLevel": 20,
+      "luck": 0.55,
+      "speed": 0.16,
+      "cost": 3500,
+      "unlockLevel": 8,
+      "upgradeBase": 1600,
+      "material": 4,
+      "asset": "assets/rods/3.png"
+    },
+    {
+      "id": "moonlight",
+      "name": "Moonlight Rod",
+      "rarity": "Epic",
+      "maxLevel": 20,
+      "luck": 0.85,
+      "speed": 0.2,
+      "cost": 7500,
+      "unlockLevel": 12,
+      "upgradeBase": 2500,
+      "material": 5,
+      "asset": "assets/rods/4.png"
+    },
+    {
+      "id": "dragonbane",
+      "name": "Dragonbane Rod",
+      "rarity": "Legendary",
+      "maxLevel": 20,
+      "luck": 1.2,
+      "speed": 0.25,
+      "cost": 18000,
+      "unlockLevel": 18,
+      "upgradeBase": 3600,
+      "material": 6,
+      "asset": "assets/rods/5.png"
+    },
+    {
+      "id": "celestial",
+      "name": "Celestial Rod",
+      "rarity": "Mythic",
+      "maxLevel": 20,
+      "luck": 1.8,
+      "speed": 0.3,
+      "cost": 50000,
+      "unlockLevel": 25,
+      "upgradeBase": 4900,
+      "material": 7,
+      "asset": "assets/rods/6.png"
+    }
+  ],
+  "locations": [
+    {
+      "id": "sunny_pond",
+      "name": "Sunny Pond",
+      "level": 1,
+      "cost": 0,
+      "time": 1,
+      "color": "#56cfa0",
+      "description": "Sunlit meadows and water lilies."
+    },
+    {
+      "id": "crystal_lake",
+      "name": "Crystal Lake",
+      "level": 3,
+      "cost": 500,
+      "time": 1.1,
+      "color": "#31cbe5",
+      "description": "Lavender peaks shelter a turquoise kingdom."
+    },
+    {
+      "id": "mystic_river",
+      "name": "Mystic River",
+      "level": 7,
+      "cost": 2500,
+      "time": 1.15,
+      "color": "#997df6",
+      "description": "A glowing forest and a river of old magic."
+    },
+    {
+      "id": "coral_bay",
+      "name": "Coral Bay",
+      "level": 12,
+      "cost": 7000,
+      "time": 1.2,
+      "color": "#ffb17c",
+      "description": "Coral gardens beneath a tropical horizon."
+    },
+    {
+      "id": "abyssal_sea",
+      "name": "Abyssal Sea",
+      "level": 20,
+      "cost": 20000,
+      "time": 1.3,
+      "color": "#6257cb",
+      "description": "Bioluminescent tides under a silver moon."
+    }
+  ],
+  "daily": [
+    {
+      "day": 1,
+      "coins": 100,
+      "gems": 0,
+      "materials": 0,
+      "potions": 0,
+      "chest": false
+    },
+    {
+      "day": 2,
+      "coins": 0,
+      "gems": 5,
+      "materials": 0,
+      "potions": 0,
+      "chest": false
+    },
+    {
+      "day": 3,
+      "coins": 0,
+      "gems": 0,
+      "materials": 2,
+      "potions": 0,
+      "chest": false
+    },
+    {
+      "day": 4,
+      "coins": 300,
+      "gems": 0,
+      "materials": 0,
+      "potions": 0,
+      "chest": false
+    },
+    {
+      "day": 5,
+      "coins": 0,
+      "gems": 10,
+      "materials": 0,
+      "potions": 0,
+      "chest": false
+    },
+    {
+      "day": 6,
+      "coins": 0,
+      "gems": 0,
+      "materials": 0,
+      "potions": 3,
+      "chest": false
+    },
+    {
+      "day": 7,
+      "coins": 0,
+      "gems": 0,
+      "materials": 0,
+      "potions": 0,
+      "chest": true
+    }
+  ],
+  "achievements": [
+    {
+      "id": "first",
+      "name": "First Catch",
+      "metric": "totalCatches",
+      "target": 1,
+      "coins": 50,
+      "gems": 0
+    },
+    {
+      "id": "hundred",
+      "name": "A Hundred Stories",
+      "metric": "totalCatches",
+      "target": 100,
+      "coins": 1000,
+      "gems": 5
+    },
+    {
+      "id": "thousand",
+      "name": "Master Angler",
+      "metric": "totalCatches",
+      "target": 1000,
+      "coins": 10000,
+      "gems": 25
+    },
+    {
+      "id": "rare",
+      "name": "A Glint of Blue",
+      "metric": "rare",
+      "target": 1,
+      "coins": 200,
+      "gems": 1
+    },
+    {
+      "id": "legend",
+      "name": "Living Legend",
+      "metric": "legendary",
+      "target": 1,
+      "coins": 2000,
+      "gems": 5
+    },
+    {
+      "id": "myth",
+      "name": "Written in the Stars",
+      "metric": "mythic",
+      "target": 1,
+      "coins": 5000,
+      "gems": 20
+    },
+    {
+      "id": "upgrade",
+      "name": "A Better Cast",
+      "metric": "upgrades",
+      "target": 1,
+      "coins": 150,
+      "gems": 1
+    },
+    {
+      "id": "explore",
+      "name": "Beyond the Horizon",
+      "metric": "locations",
+      "target": 5,
+      "coins": 2000,
+      "gems": 10
+    },
+    {
+      "id": "half",
+      "name": "Field Researcher",
+      "metric": "collection",
+      "target": 15,
+      "coins": 3000,
+      "gems": 10
+    },
+    {
+      "id": "complete",
+      "name": "Living Encyclopedia",
+      "metric": "collection",
+      "target": 30,
+      "coins": 10000,
+      "gems": 50
+    }
+  ]
+}
